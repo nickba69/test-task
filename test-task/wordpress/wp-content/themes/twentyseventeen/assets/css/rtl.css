@@ -1,0 +1,16 @@
+body{
+	background: red !important;
+}
+
+.widget_product_search input[type=submit] {
+    margin-right: 100px !important;
+}
+.widget_product_search .search-field {
+    padding-right: 0 !important;
+}
+.zoom{
+	float: right !important;
+}
+a.remove{
+	float:left !important;
+}

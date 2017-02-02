@@ -1,0 +1,50 @@
+
+.contact-us{
+	float: right;
+	width: 40%;
+	margin-bottom:150px: 
+}
+.mobile-button{
+	display: none;
+}
+.popup{
+	overflow:hidden;
+	max-height: 100px;
+	display: none;
+    position: relative;
+    top: -71px;
+    left: 41%;
+    max-width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #989898;
+}
+@media all and (max-width: 768px){
+	.contact-us{
+	width:100%;
+	text-align: center;
+	}
+	.mobile-hide{
+		display: none;
+	}
+	.contact-us button{
+		width: 90%;
+	}
+	.mobile-button{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.site-info{
+		text-align:center; 
+	}
+	.popup{
+		top: -23px;
+	    left: 0;
+	    width: 90%;
+	    max-width: 100%;
+	}
+}
+.single_add_to_cart_button{
+	margin-bottom: 10px !important;
+}
+
